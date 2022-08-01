@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.00">
+    <title>Partners</title>
+
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/styles.css">
+</head>
+<body>
+
+    <Header>
+        <div class="container_main_header">
+
+            <div class="section_logo">
+                <a href="./../index.html">
+                    <img class="logo_main" src="./../assets/logo_off.png" alt="logo_chamber">
+                    <h1 class="tittle_main" id="home">Berliner Philharmoniker</h1>
+                </a>
+            </div>
+
+            <div>
+                <nav class="bar_navigation" >
+                    <ul class="sections_bar_nav" id="menu">
+                        <li><a href="./../index.html">Home</a></li>
+                        <li><a href="./../pages/discografia.html">Discografia</a></li>
+                        <li><a href="./../pages/about_us.html">About us</a></li>
+                        <li><a href="./../pages/calendar.html">Calendar</a></li>
+                        <li><a href="./../pages/partners.html">Partners</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </Header>
+
+    <div class="body_full">
+        <aside>
+            <div class="bar_aside">
+                <h2 class="tittle_aside">Information</h2>
+                <div class="bar_aside_nav">
+                    <ul class="bar_aside_menu">
+                        <li><a href="#">Biografia</a></li>
+                        <li><a href="#">Tickets</a></li>
+                        <li><a href="#">Members</a></li>
+                        <li><a href="#">Programs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <h2 class="tittle_contenta_partners" id="partners">Partners</h2>
+            <section>
+                <form action="#" class="form_main" method="post">
+
+                    <fieldset class="form_main_container">
+                        <legend class="head_form">Datos Generales</legend>
+
+                        <div>
+                            <label for="ip_nombre">Nombres:</label>
+                            <input class="container_user" type="text" id="ip_nombre" placeholder="Nombre" name="">
+                            <label for="ip_apellido">Apellidos:</label>
+                            <input class="container_user" type="text" id="ip_apellido" placeholder="Apellido">
+                            <label for="ip_data">Fecha de nacimiento</label>
+                            <input class="container_user" type="date" id="ip_data">
+                        </div>
+
+                        <div>
+                            <label for="ip_gen">Género</label>
+                            <input class="container_user" type="text" placeholder="Género" list="ip_gen1" id="ip_gen">
+                            <datalist id="ip_gen1">
+                                <option value="Masculino">Masculino</option>
+                                <option value="Femenino">Femenino</option>
+                            </datalist>
+                            <label for="ipcivil">Estado Civil</label>
+                            <input class="container_user" type="text" placeholder="Estado Civil" list="ipcivil1" id="ipcivil">
+                            <datalist id="ipcivil1">
+                                <option value="Casado/a">Casado/a</option>
+                                <option value="Soltero/a">Soltero/a</option>
+                                <option value="Divorciado/a">Divorciado/a</option>
+                                <option value="Viudo/a">Viudo/a</option>
+                            </datalist>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="form_main_container">
+
+                        <legend class="head_form">Datos de registro</legend>
+                        <div>
+                            <label for="email">Email</label>
+                            <input class="container_user" type="email" id="email" placeholder="Ingrese su correo">
+                            <label for="tel">Teléfono</label>
+                            <input class="container_user" type="tel" id="tel" placeholder="Ingrese su #telefono">
+                        </div>
+
+                        <div>
+                            <label for="direc">Número de casa</label>
+                            <input class="container_user" type="text" id="direc" placeholder="Ingrese su dirección">
+                            <label for="calle">Número de casa</label>
+                            <input class="container_user" type="number" id="calle" placeholder="Ingrese #casa">
+                            <label for="num.depar">Número de departamento</label>
+                            <input class="container_user" type="number" id="num.depar" placeholder="Ingrese #departamento">
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="form_main_container">
+                        <legend class="head_form">Información Complementaria</legend>
+                        <div>
+                            <label for="nacionalidad">De què nacionalidad es?</label>
+                            <select class="container_user" name="Nacionalidad" id="nacionalidad">
+                                <optgroup label="Nacionalidad">
+                                    <option value="clean"></option>
+                                    <option value="Española">Española</option>
+                                    <option value="Americana">Americana</option>
+                                    <option value="Rusa">Rusa</option>
+                                    <option value="Ucraniana">Ucraniana</option>
+                                    <option value="Ecuatoriana">Ecuatoriana</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4>Tiene hijos?</h4>
+                            <label>
+                                <span>Si</span>
+                                <input type="radio" name="hijos" value="yes">
+                            </label>
+
+                            <label>
+                                <span>No</span>
+                                <input type="radio" name="hijos" value="no">
+                            </label>
+                        </div>
+
+                        <div>
+                            <h4>Cuántos hijos tiene?</h4>
+                            <label>
+                                <span>Hombres</span>
+                                <input class="container_user" type="number">
+                            </label>
+
+                            <label>
+                                <span>Mujeres</span>
+                                <input class="container_user" type="number">
+                            </label>
+                        </div>
+
+                        <div>
+                            <h4>Conocimiento de idiomas</h4>
+                            <label>
+                                <span>Español</span>
+                                <input type="range">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <span>Inglés</span>
+                                <input type="range">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <span>Otro idioma</span>
+                                <input class="container_user" type="text">
+                                <input type="range">
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form_main_container">
+                        <legend class="head_form">Preguntas Generales</legend>
+                        <div>
+                            <label for="cuest_1">¿Alguna vez has asistido a un concierto en vivo?</label>
+                            <input type="checkbox" id="cuest_1"> <br>
+
+                            <label for="cuest_2">¿Eres musico?</label>
+                            <input type="checkbox" id="cuest_2"> <br>
+
+                            <label for="cuest_3">¿Eres fan de la musica clasica?</label>
+                            <input type="checkbox" id="cuest_3"> <br>
+
+                            <label for="cuest_4">¿Dispuesto a recibir noticas de conciertos?</label>
+                            <input type="checkbox" id="cuest_4"> <br>
+
+                            <label for="cuest_5">¿Te gusta la opera?</label>
+                            <input type="checkbox" id="cuest_5"> <br><br>
+
+                            <label for="cuest_6"><b>¿Permite que la organizacion pueda administrar suinformacion de forma libre?</b></label>
+                            <input type="checkbox" id="cuest_6" required>
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label>
+                                <input class="buy" type="reset" value="Limpiar campos">
+                            </label>
+
+                            <label>
+                                <input class="buy" type="submit" value="Enviar todo">
+                            </label>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <nav class="bar_off">
+        <ul class="bar_off_list">
+            <li><a href="../index.html">To Home</a></li>
+            <li><a href="./../pages/discografia.html">To Discografia</a></li>
+            <li><a href="./../pages/about_us.html">To About Us</a></li>
+            <li><a href="./../pages/calendar.html">To Calendar</a></li>
+            <li><a href="#partners">To Partners</a></li>
+        </ul>
+    </nav>
+
+    <a href="#"><img class="img_banner" src="https://www.digitalconcerthall.com/structured-data/products/default.jpg" alt="banner_suscrp"></a>
+
+    <footer>
+        <div class="footer">
+            <p class="section_social">©Copyright @badboy2022 All rights reserved</p>
+            <div>
+                <ul class="list_icon">
+                    <li><a href="#"><img src="./../assets/Twitter.png" alt="icon"></a></li>
+                    <li><a href="#"><img src="./../assets/Linkein.png" alt="icon"></a></li>
+                    <li><a href="#"><img src="./../assets/Google.png" alt="icon"></a></li>
+                    <li><a href="#"><img src="./../assets/Facebook.png" alt="icon"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
